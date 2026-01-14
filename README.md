@@ -1,7 +1,7 @@
 # Grammar Evaluation System
 Whisper + NLP + LLM Grammar Scoring
 
-Overview  
+# Overview  
 This project implements an end-to-end spoken English grammar evaluation pipeline.  
 It converts raw speech audio into text using OpenAI Whisper, cleans conversational noise, performs sentence-level linguistic analysis, and assigns grammar quality scores using both LLM-based and rule-based methods.
 
@@ -9,7 +9,7 @@ The system is designed as a research-focused ML pipeline and does not rely on an
 
 ---
 
-Tech Stack  
+# Tech Stack  
 
 Python  
 
@@ -27,7 +27,7 @@ Google Colab (GPU Supported)
 
 ---
 
-Pipeline  
+# Pipeline  
 
 Audio (.wav)  
 → Whisper Transcription  
@@ -38,7 +38,7 @@ Audio (.wav)
 
 ---
 
-Dataset  
+# Dataset  
 
 Source: Kaggle – SHL Intern Hiring Assessment  
 
@@ -48,7 +48,7 @@ Used for transcription, linguistic analysis, and grammar evaluation.
 
 ---
 
-Grammar Scoring Criteria  
+# Grammar Scoring Criteria  
 
 1 – Poor grammar, broken structure  
 
@@ -62,7 +62,7 @@ Grammar Scoring Criteria
 
 ---
 
-Sample Output  
+# Sample Output  
 
 Original Sentence:  
 She don't like the movie.
@@ -75,7 +75,7 @@ Subject–verb agreement error
 
 ---
 
-Key Features  
+# Key Features  
 
 Speech-to-text transcription using Whisper  
 
@@ -93,7 +93,7 @@ CSV export of transcriptions
 
 ---
 
-Use Case  
+# Use Case  
 
 Automated spoken English assessment  
 
@@ -105,21 +105,19 @@ Grammar analysis research
 
 ---
 
-Description  
+# Description  
 
 Built an end-to-end spoken grammar evaluation system using OpenAI Whisper and NLP techniques. Processed raw interview audio, cleaned conversational artifacts, analyzed sentence structure, and evaluated grammar quality using LLM-based and rule-based scoring methods.
 
 ---
 
-License  
-
-MIT License  
+# License  
 
 Free to use, modify, and distribute with attribution.
 
 ---
 
-Author  
+# Author  
 
 Aman Kumar  
 Omshubra singha 
