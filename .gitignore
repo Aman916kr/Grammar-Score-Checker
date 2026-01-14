@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+# Data
+Dataset/
+*.wav
+*.zip
+
+# Outputs
+transcriptions.csv
+
+# Kaggle
+kaggle.json
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models
+*.pt
+*.bin
+*.safetensors
